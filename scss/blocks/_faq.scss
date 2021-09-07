@@ -1,0 +1,75 @@
+.faq {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    margin-bottom: 63px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 569px 466px;
+    background-image: url(/images/cat.svg);
+
+    &__container {
+        margin: 0;
+        padding: 0;
+        margin-top: 111px;
+        display: flex;
+        margin-left: 177px;
+        flex-direction: column;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        max-width: 152px;
+        margin-bottom: 27px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        margin-bottom: 35px;
+        max-width: 447px;
+    }
+
+    &__btn {
+        margin: 0;
+        border: none;
+        border-radius: 3px;
+        opacity: 0.8;
+        cursor: pointer;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        background-color: #78c0de;
+        padding: 15px 38px 15px 50px;
+        margin-bottom: 63px;
+        max-width: 201px;
+        position: relative;
+
+        &::before {
+            top: 15px;
+            right: 0;
+            bottom: 0;
+            left: 20px;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url("/images/document.svg");
+        }
+    }
+}
